@@ -27,6 +27,6 @@ function sortearAmigo() {
         alert("No hay amigos para sortear");
     }
     let amigosorteado = parseInt(Math.random()*(listaAmigos.length));
-    // console.log(listaAmigos[amigosorteado]); muestra el amigo tomado al azar 
+    // console.log(listaAmigos[amigosorteado]); muestra el amigo tomado al azar
     document.getElementById("resultado").textContent = ` Felicitaciones tu amigo/a secreto/a sera: ${listaAmigos[amigosorteado]}`
 }
